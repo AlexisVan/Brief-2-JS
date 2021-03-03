@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="js/index.js" defer>
+  </script>
+  <title>Soundboard</title>
+</head>
+<body>
+  <div id="bg-image-container">
+    <img id="bg-image" src="/assets/img/water.svg" alt="">
+  </div>
+
+  <main>
+    
+    <section id="btn-section">
+      <div class="btn-container">
+        <button id="btn__sound-1">Press "a"</button>
+        <audio data-key="65" id="a" src="assets/sounds/Baguettes_de_batterie_3.mp3"></audio>
+      </div>
+     
+      <div class="btn-container">
+        <button id="btn__sound-2">Press "z"</button>
+        <audio data-key="90" id="z" src="assets/sounds/Batterie_de_blague.mp3"></audio>
+      </div>
+      
+      
+    <div class="btn-container">
+        <button id="btn__sound-3">Press "e"</button>
+      <audio data-key="69" id="e" src="assets/sounds/Caisse_claire_1.mp3"></audio>
+    </div>
+    
+  </section>
+    
+    <section id="btn-section2">      
+       <div class="btn-container">
+         <button id="btn__sound-4">Press "r"</button>
+         <audio data-key="82" id="r" src="assets/sounds/Charleston_4.mp3"></audio>
+        </div>
+       
+      <div class="btn-container">
+        <button id="btn__sound-5">Press "t"</button>
+        <audio data-key="84" id="t" src="assets/sounds/Charleston_fermee_3.mp3"></audio>
+      </div>
+      
+      <div class="btn-container">
+        <button id="btn__sound-6">Press "y"</button>
+        <audio data-key="89" id="y" src="assets/sounds/Cymbale_ride_4.mp3"></audio>
+      </div>
+  </section>
+
+    <section id="btn-section3">      
+      <div class="btn-container">
+        <button id="btn__sound-7">Press "u"</button>
+        <audio data-key="85" id="u" src="assets/sounds/Tom_aigu_1.mp3"></audio>
+      </div>
+      
+      
+     <div class="btn-container">
+       <button id="btn__sound-8">Press "i"</button>
+       <audio data-key="73" id="i" src="assets/sounds/Tom_grave_1.mp3"> </audio>
+    </div>
+     
+     
+     
+     <div class="btn-container">
+       <button id="btn__sound-9">Press "o"</button>
+       <audio data-key="79" id="o" src="assets/sounds/Tom_grave_4.mp3"></audio>
+    </div>
+     
+   </section>
+
+
+  </main>
+
+  <script src="JS/functions.js"></script>
+</body>
+</html>
