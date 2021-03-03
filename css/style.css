@@ -37,7 +37,7 @@ main {
   height: 30%;
 }
 
-#btn-section2 {
+/* #btn-section2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,9 +53,10 @@ main {
   align-items: center;
   justify-content: space-around;
   height: 35%;
-}
+} */
 
 .btn-container {
+  margin-top: 100px;
   width: 33%;
   text-align: center;
 }
@@ -78,12 +79,12 @@ button.sound-active {
   box-shadow: none;
 }
 
-/* DECOMMENTER LES LIGNES EN DESSOUS ET COMPLETER LES 
-  cela permettra d'ajouter une règle de mise en forme de 
- */
- /* @media screen and (max-width: 640px) {
+ @media screen and (max-width: 640px) {
   .bloc {
     display:block;
-    clear:both;
-  }
-} */
+    clear:both;}
+   
+    .btn-container {
+      width: 50%;
+      margin-top: 45px; }
+}
